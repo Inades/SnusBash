@@ -11,7 +11,9 @@ and run index.sh
 `git clone https://github.com/Inades/snusbash.git`
 
 `cd snusbash && mkdir db`
+
 (put your db in the /db)
+
 `bash index.sh`
 
 ## Example
