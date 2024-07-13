@@ -19,3 +19,5 @@ and run index.sh
 ## Example
 
 ![example](https://s12.gifyu.com/images/St4HH.gif)
+
+If nothing is displayed after about twenty seconds, your search was unsuccessful.
