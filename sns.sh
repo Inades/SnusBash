@@ -12,7 +12,7 @@ path=($HOME)
 
 db=($HOME/snusbash/db/)
 
-snusbash=$(yad --center --width=300 --title="SnusBash" --text="Enter a user,pass,mail:
+snusbash=$(yad --center --width=300 --window-icon="img/icon.png" --title="SnusBash" --text="Enter a user,pass,mail:
 
 
 
@@ -33,11 +33,11 @@ Don't forget to fill the /db folder with your .txt, .sql or other
 
 if [ -z "$snusbash" ]; then
 
-    yad --title="Error" --image="$HOME/snusbash/img/icon.png" --center --text="No text entered. Please try again." --error
+    yad --title="Error" --image="$HOME/snusbash/img/icon.png" --window-icon="img/icon.png" --center --text="No text entered. Please try again." --error
 
 else
 
-    grep -r "$snusbash" $db* | yad --center --image="$HOME/snusbash/img/snus2.png" --title="SnusBash ~ Search Results" --text-info --width=1500 --height=600 
+    grep -r "$snusbash" $db* | yad --center --window-icon="img/icon.png" --image="$HOME/snusbash/img/snus2.png" --title="SnusBash ~ Search Results" --text-info --width=1500 --height=600 
 
 fi
 
