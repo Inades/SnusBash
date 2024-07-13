@@ -6,6 +6,8 @@ SnusBash is an alternative to snusbase in bash, but with your db. (GUI)
 Put your database files (txt, sql or other) in the /db folder (that you will create)
 and run index.sh
 
+install yad for the gui
+
 ## How to install
 
 `git clone https://github.com/Inades/snusbash.git`
